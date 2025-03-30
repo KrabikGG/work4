@@ -17,3 +17,19 @@ print(replace_symbol)
 # Кількість слів у тексті
 word_count = len(text.split())
 print("\nКількість слів у тексті:", word_count)
+
+# Частина 2 - Коваль А.М.
+# Підрахунок кількості речень
+sentence_count = text.count('.')  # Кількість крапок
+print("\nКількість речень у тексті:", sentence_count)
+
+# Видалення голосних літер
+vowels = "аеєиіїоуюяАЕЄИІЇОУЮЯ"
+no_vowels_text = ''.join([char for char in text if char not in vowels])
+print("\nТекст без голосних літер:")
+print(no_vowels_text)
+
+# Переставлення слів у зворотному порядку
+reversed_words_text = ' '.join(text.split()[::-1])
+print("\nТекст із переставленими словами:")
+print(reversed_words_text)
