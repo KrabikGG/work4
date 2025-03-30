@@ -17,3 +17,4 @@ print(replace_symbol)
 # Кількість слів у тексті
 word_count = len(text.split())
 print("\nКількість слів у тексті:", word_count)
+112412
